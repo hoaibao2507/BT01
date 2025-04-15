@@ -1,0 +1,13 @@
+name: Simple CI Demo
+
+on:
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  demo-job:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Bắt đầu CI
+        run: echo "🎉 CI đang chạy thành công!"
